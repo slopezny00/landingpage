@@ -1,0 +1,61 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Single Day', cursive;*/
+
+/* Stylesheet for the Landing Page Project 2/1/2024 */
+
+html, body {
+    background-color: mediumslateblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section#intro {
+    background-image: url("background2.jpg");
+    height: 100%;
+    display: table;
+    width: 100%;
+    background-size: cover;
+}
+
+div#content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "Single Day", cursive;
+    letter-spacing: 5px;
+    color: lawngreen;
+    text-shadow: 4px 0px 6px black;
+}
+
+a#btn {
+    font-size: 2em;
+    font-family: "Lato", sans-serif;
+    background-color: #84716A;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 2px 8px blue;
+    transition: all 1s;
+}
+
+a#btn:hover {
+    background-color:blue;
+    color: #84716A;
+    border-color: darkred;
+    border-width: 3px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
